@@ -1,5 +1,5 @@
 /*
-Nicolò Mele
+Nicolï¿½ Mele
 the color must be modified for every printf statement
 */
 #include "ANSIcolors.c"
@@ -27,9 +27,13 @@ int main(void){
 	textcolorRGB(90,90,90);
 	printf("d");
 	textcolorRGB(100,100,100);
-	printf("!");
+	printf("!\n");
 	textcolor(DEFAULTCOLOR);
 	
 	
+	textcolorHEX("#FFFFFF");
+	printf("Hello World!\n");
+	textcolor(DEFAULTCOLOR);
+
 	return 0;
 }
